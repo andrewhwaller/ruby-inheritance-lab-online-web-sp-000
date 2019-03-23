@@ -5,6 +5,6 @@ class Student < User
   end
 
   def knowledge
-    KNOWLEDGE
+    @knowledge
   end
 end
