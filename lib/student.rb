@@ -5,4 +5,7 @@ class Student < User
     KNOWLEDGE = []
   end
 
+  def knowledge
+    KNOWLEDGE
+  end
 end
